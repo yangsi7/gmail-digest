@@ -7,7 +7,7 @@
         "firecrawl-mcp"
       ],
       "env": {
-        "FIRECRAWL_API_KEY": "fc-fbf3d554863348fb9a7c54436ad069c9",
+        "FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY_2}",
         "FIRECRAWL_RETRY_MAX_ATTEMPTS": "5",
         "FIRECRAWL_RETRY_INITIAL_DELAY": "2000",
         "FIRECRAWL_RETRY_MAX_DELAY": "30000",
@@ -76,7 +76,7 @@
       "type": "http",
       "url": "https://api.ref.tools/mcp",
       "headers": {
-        "x-ref-api-key": "ref-dd4e77a8f073f099e8d8"
+        "x-ref-api-key": "${REF_API_KEY}"
       }
     },
     "browser-use": {
